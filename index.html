@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浜名湖うなぎ | 伝統の味と極上の品質</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="logo">浜名湖うなぎ</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">浜名湖うなぎについて</a></li>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#access">店舗アクセス</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">伝統が育む、極上の一杯。</h2>
+                <p class="hero-subtitle">静岡・浜名湖の豊かな自然の中で育った、風味豊かでふっくらとした最高級うなぎをご堪能ください。</p>
+                <a href="#menu" class="btn btn-primary">メニューを見る</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">浜名湖うなぎについて</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>浜名湖は、海と湖が混じり合う汽水湖であり、うなぎの生育に最適な環境を自然と備えています。そこで育ううなぎは、身が引き締まり、良質な脂が乗っているのが特徴です。</p>
+                        <p>当店では、代々受け継がれた伝統の製法と、熟練の職人による丁寧な焼き上げで、浜名湖うなぎ本来の美味しさを最大限に引き出しています。創業以来変わらぬ味を、ぜひご賞味ください。</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/unagi-placeholder.jpg" alt="浜名湖うなぎのイメージ">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu">
+            <div class="container">
+                <h2 class="section-title">おすすめメニュー</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/menu1-placeholder.jpg" alt="特上うな重">
+                        <h3 class="menu-item-title">特上うな重</h3>
+                        <p class="menu-item-desc">大振りで脂の乗った極上のうなぎを、特製の甘辛いタレで焼き上げました。</p>
+                        <p class="menu-item-price">¥3,800</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/menu2-placeholder.jpg" alt="うな丼">
+                        <h3 class="menu-item-title">うな丼</h3>
+                        <p class="menu-item-desc">ふっくらとしたうなぎとご飯のバランスが絶妙。毎日の贅沢に。</p>
+                        <p class="menu-item-price">¥2,500</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/menu3-placeholder.jpg" alt="白焼き">
+                        <h3 class="menu-item-title">うなぎ白焼き</h3>
+                        <p class="menu-item-desc">タレを使わず、うなぎ本来の風味と上品な脂の旨味をダイレクトに。</p>
+                        <p class="menu-item-price">¥2,800</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section access">
+            <div class="container">
+                <h2 class="section-title">店舗アクセス</h2>
+                <div class="access-content">
+                    <div class="access-info">
+                        <h3>浜名湖うなぎ 本店</h3>
+                        <p>〒431-0400 静岡県湖西市（浜名湖周辺）</p>
+                        <p>TEL: 053-XXX-XXXX</p>
+                        <p>営業時間: 11:00 - 20:00 (LO 19:30)</p>
+                        <p>定休日: 毎週水曜日</p>
+                    </div>
+                    <div class="access-map">
+                        <!-- 実際のGoogle Maps埋め込みコードなどに置き換えてください -->
+                        <div class="map-placeholder">地図エリア</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="contact-text">ご予約やご質問は、お電話または以下のフォームよりお気軽にお問い合わせください。</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 浜名湖うなぎ 本店. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
